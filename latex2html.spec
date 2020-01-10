@@ -3,7 +3,7 @@
 Summary: Converts LaTeX documents to HTML
 Name: latex2html
 Version: 2012
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv2+
 Group: Applications/Publishing
 URL: http://www.latex2html.org/
@@ -230,6 +230,9 @@ rm -rf %{buildroot}
 %{_mandir}/man1/pstoimg.*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2012-3
+- Mass rebuild 2013-12-27
+
 * Tue Jan 29 2013 Jindrich Novy <jnovy@redhat.com> 2012-2
 - prefer url.sty from texlive (#904888)
 
